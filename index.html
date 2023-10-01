@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grade generation system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="content">
+     <div id="head"><h1>ORDER OF GRADING</h1></div>
+    <div id="main">
+        <div class="subject1">
+            <label>Chemistry</label>
+            <input id="bookOne" type="number" name="" placeholder="Marks">
+        </div>
+        <div class="subject2">
+            <label>Physics</label>
+            <input id="bookTwo" type="number" name="" placeholder="Marks">
+        </div>
+        <div class="subject3">
+            <label>Mathematics</label>
+            <input id="bookThree" type="number" name="" placeholder="Marks">
+        </div>
+        <div class="subject4">
+            <label>History</label>
+            <input id="bookFour" type="number" name="" placeholder="Marks">
+        </div>
+        <div class="subject5">
+            <label>English</label>
+            <input id="bookFive" type="number" name="" placeholder="Marks">
+        </div>
+        <div class="subject6">
+            <label>Kiswahili</label>
+            <input id="bookSix" type="number" name="" placeholder="Marks">
+        </div>
+        <div class="subject7">
+            <label>Religious Education</label>
+            <input id="bookSeven" type="number" name="" placeholder="Marks">
+        </div>
+        <div>
+            <button class="BTN" onclick="calculate()">Calculate</button>
+        </div>
+    </div>
+    <div id="table1">
+        <table id="table2">
+            <tr>
+                <td>Total Raw Marks Attained</td>
+                <td>700</td>
+            </tr>
+            <tr>
+                <td>Score Attained by learner:</td>
+                <td id="scoreTotal"></td>
+            </tr>
+            <tr>
+                <td>Percentage Score:</td>
+                <td id="per"></td>
+            </tr>
+            <tr>
+                <td>Grade Attained by Learner:</td>
+                <td id="grade"></td>
+            </tr>
+            <tr>
+                <td>Remarks:</td>
+                <td id="remarks"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>

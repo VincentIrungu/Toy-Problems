@@ -1,0 +1,29 @@
+*{
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
+}
+body{
+    background:url(./images/wallpaperflare.com_wallpaper\ \(3\).jpg)no-repeat;
+    background-size: cover;
+}
+#table1{
+    width: 40%;
+    background:grey;
+    border-radius: 30px;
+    font-weight: 25px;
+}
+.BTN{
+    background-color:rgb(14, 119, 119) ;
+    border: none;
+    padding: 12px 0;
+    border-radius: 15px;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color .4s ease;
+    width: 35%;
+}
+.BTN:hover{
+    background-color: rgb(9, 67, 67);}
