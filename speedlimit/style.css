@@ -10,12 +10,12 @@
     
     #table1{
         width: 40%;
-        background:whitesmoke;
+        background:rgb(5, 10, 82);
         border-radius: 30px;
         font-weight: 25px;
     }
     .BTN{
-        background-color:hsl(359, 80%, 37%) ;
+        background-color:hsl(98, 80%, 37%) ;
         border: none;
         padding: 12px 0;
         border-radius: 15px;
@@ -27,5 +27,5 @@
         width: 35%;
     }
     .BTN:hover{
-        background-color: hsl(357, 75%, 17%);}
+        background-color: hsl(51, 83%, 41%);}
         
