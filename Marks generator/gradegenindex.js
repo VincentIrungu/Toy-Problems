@@ -1,19 +1,19 @@
 function calculate(){//SUBJECT STUDENT'S MARKS
-    var a=parseInt(document.getElementById('bookOne').value);
-    var b=parseInt(document.getElementById('bookTwo').value);
-    var c=parseInt(document.getElementById('bookThree').value);
-    var d=parseInt(document.getElementById('bookFour').value);
-    var e=parseInt(document.getElementById('bookFive').value);
-    var f=parseInt(document.getElementById('bookSix').value);
-    var g=parseInt(document.getElementById('bookSeven').value);
+    let a=parseInt(document.getElementById('bookOne').value);
+    let b=parseInt(document.getElementById('bookTwo').value);
+    let c=parseInt(document.getElementById('bookThree').value);
+    let d=parseInt(document.getElementById('bookFour').value);
+    let e=parseInt(document.getElementById('bookFive').value);
+    let f=parseInt(document.getElementById('bookSix').value);
+    let g=parseInt(document.getElementById('bookSeven').value);
     if (a>100 || b>100 || c>100 || d>100 || e>100 || f>100 || g>100){
         alert("INVALID INPUT!");//SUBJECT MARKS LIMIT
     }
     else
     {
-        var obtain = a+b+c+d+e+f+g;//SCORE TOTAL
+        let obtain = a+b+c+d+e+f+g;//SCORE TOTAL
         document.getElementById("scoreTotal").innerHTML=obtain;
-        var per= obtain/700*100;
+        let per= obtain/700*100;
         document.getElementById("per").innerHTML=per;
         if (per>49) {//PASSMARK
          document.getElementById("remarks").innerHTML="<span style='color:Green'>PASS!</span>";
@@ -40,9 +40,4 @@ function calculate(){//SUBJECT STUDENT'S MARKS
             document.getElementById("grade").textContent="E"
         }
     }
-
-//END OF CODE//
-
-
-
-
+}
