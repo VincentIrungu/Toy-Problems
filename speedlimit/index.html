@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="head"><h1>Speed detector</h1></div>
+    <div class="content">
+        <label>SPEED :</label>
+        <input id="speedInput1" type="number" name="" placeholder="speed">
+    </div>
+    <div>
+        <button class="BTN" onclick="checkSpeed()">CHECK</button>
+    </div>
+    <div id="table1">
+        <table>
+            <tr>
+                <td>SPEED LIMIT :</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Driver's Speed :</td>
+                <td id="velocity"></td>
+            </tr>
+            <td>Points Counter :</td>
+            <td id="Points"></td>
+            <tr>
+                <td>Status :</td>
+                <td id="Remarks"></td>
+            </tr>
+            <tr>
+                <td>Speed limit:</td>
+                <td id="speedCheck"></td>
+            </tr>
+        </table>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>

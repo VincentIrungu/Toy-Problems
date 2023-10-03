@@ -42,3 +42,7 @@ function calculate(){//SUBJECT STUDENT'S MARKS
     }
 
 //END OF CODE//
+
+
+
+
